@@ -433,6 +433,18 @@ img {
   align-items: center;
 }
 
+.main {
+  margin: 0 0 2rem 0;
+}
+.main__title {
+  font-size: 2.3rem;
+  margin-bottom: 0;
+}
+.main__para {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+
 .brand {
   height: 100%;
   padding: 1.5rem 2rem;
@@ -440,6 +452,37 @@ img {
 .brand__logo-link img {
   width: 35%;
   margin: 0.5rem;
+}
+
+.form {
+  display: flex;
+  width: 15vw;
+  margin-bottom: 2rem;
+}
+.form__label {
+  height: 4.9rem;
+  font-size: 1.6rem;
+  border-right: none;
+  border: 0.1rem solid #F2F2F2;
+  border-radius: 1.5rem 0 0 1.5rem;
+  padding: 1.5rem 1.6rem 1.5rem 1.6rem;
+  background-color: #e6e7e9;
+}
+.form__input {
+  background-color: #F2F2F2;
+  padding: 1.5rem 1.6rem 1.5rem 1.6rem;
+  color: #000;
+  width: 33.2rem;
+  height: 4.9rem;
+  border: 0.1rem solid #e6e7e9;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.form__input::-moz-placeholder {
+  color: #000;
+}
+.form__input::placeholder {
+  color: #000;
 }
 
 .nav {
@@ -483,32 +526,56 @@ img {
   font-weight: 700;
 }
 
-.form {
+.filter-section {
+  margin: 1rem 0;
+  width: 60vw;
+}
+.filter-section__para {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #000;
+}
+.filter-section__para-icon {
+  font-size: 1rem;
+  padding: 1rem;
+  border: 1px solid #e6e7e9;
+  border-radius: 50%;
+  margin-left: 0.3rem;
+}
+
+.filter {
+  width: 100%;
+  height: 100%;
   display: flex;
-  width: 15vw;
+  justify-content: space-between;
 }
-.form__label {
-  height: 4.9rem;
-  font-size: 1.6rem;
-  border-right: none;
-  border: 0.1rem solid #F2F2F2;
-  border-radius: 1.5rem 0 0 1.5rem;
-  padding: 1.5rem 1.6rem 1.5rem 1.6rem;
-  background-color: #e6e7e9;
+.filter__title {
+  width: 10vw;
 }
-.form__input {
-  background-color: #F2F2F2;
-  padding: 1.5rem 1.6rem 1.5rem 1.6rem;
-  color: #000;
-  width: 33.2rem;
-  height: 4.9rem;
-  border: 0.1rem solid #e6e7e9;
-  font-size: 1.8rem;
-  font-weight: 700;
+.filter__title-subtitle {
+  font-size: 1.5rem;
+  margin-top: 0.7rem;
 }
-.form__input::-moz-placeholder {
-  color: #000;
+.filter__cap {
+  width: 80%;
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid #e6e7e9;
 }
-.form__input::placeholder {
-  color: #000;
+.filter__cap-icon {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #e6e7e9;
+  border-radius: 2rem;
+  background-color: #cfdbec;
+}
+.filter__cap-title {
+  width: 80%;
+  padding: 0.2rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */

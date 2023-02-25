@@ -1,1 +1,14 @@
-//This file is for create your style with relation on space of main
+.main {
+
+    margin: 0 0 2rem 0;
+    
+    &__title {
+        font-size: 2.3rem;
+        margin-bottom: 0;
+    }
+    
+    &__para {
+        font-size: 1.5rem;
+        margin: 0 0 1rem 0;
+    }
+}
