@@ -1,1 +1,20 @@
-//This file you will create your mixins inside of the project
+@mixin flexMid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+// @mixin flexRow {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}

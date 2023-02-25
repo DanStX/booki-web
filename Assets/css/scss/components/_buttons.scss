@@ -1,1 +1,11 @@
-//This file you will create your style for buttons inside of the project
+.btn {
+    background-color: $color-icon;
+    color: #fff;
+    padding: 1.5rem 1.6rem 1.5rem 1.6rem;
+    width: 13.2rem;
+    height: 4.9rem;
+    border: 0.1rem solid $bg-second;
+    border-radius: 0 1.5rem 1.5rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}

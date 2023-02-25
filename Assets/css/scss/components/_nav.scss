@@ -1,0 +1,34 @@
+.nav {
+    width: 20%;
+    height: 100%;
+    @include flexMid;
+    
+    
+    // background-color: black;
+    
+    &__bar {
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        // margin: 2rem auto;
+        text-align: center;
+        padding-top: 3rem;
+        
+        &-link {
+            height: 100%;
+            width: 100%;
+            font-size: 1rem;
+            
+        }
+    }
+} 
+
+.active, .active>a {
+    color: $color-icon;
+    border-top: 2px solid $color-icon;
+}
+
+.active>a {
+    border: none;
+
+}

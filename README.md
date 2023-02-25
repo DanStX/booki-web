@@ -1,7 +1,7 @@
 
 # Booki
 
-Site Ecommerce de réservation hôtelière et touristique
+Site Ecommerce de réservation hôtelière et touristique responsive
 
 
 ## Screenshots

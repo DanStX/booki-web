@@ -8,29 +8,26 @@
     './scss/abstracts/variables';
 @import 
     
-    './scss/vendors/normalize';
+    './scss/vendors/normalize'
+    ;
 @import 
     './scss/base/reset',
     './scss/base/typography',
     './scss/base/base';
 @import 
     './scss/layout/header',
-    './scss/layout/navbar',
     './scss/layout/main',
-    './scss/layout/pagination',
+    './scss/layout/aside',
     './scss/layout/footer';
-    // './scss/layout/navbar';
+
 @import 
+    './scss/components/brand',
+    './scss/components/nav',
     './scss/components/buttons',
-    './scss/components/buttons',
-    './scss/components/buttons';
+    './scss/components/form';
 @import 
-    // './scss/pages/home',
-    // './scss/pages/home',
     './scss/pages/home';
 @import 
-    // './scss/Themes/darktheme',
-    // './scss/Themes/darktheme',
     './scss/Themes/darktheme';
 
 @import 

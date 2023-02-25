@@ -7,7 +7,7 @@
 }
 
 html {
-    font-family: 'Poppins', sans-serif;
+
     // This defines what 1rem is
     font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
 
@@ -25,13 +25,11 @@ html {
 }
 
 body {
-    font-family: "Lato", serif, sans-serif;
     font-weight: 400;
-    /* font-size: 16px; */
     line-height: 1.7;
-    // color: #777;
-    padding: 3rem;
     box-sizing: border-box;
+    background-color: $bg-first;
+    padding: 0 2rem;
 }
 
 a {
@@ -44,4 +42,17 @@ img {
 	max-width: 100%;
 	width: auto;
 	height: auto;
+}
+
+
+.icon {
+    color: $color-icon
+}
+
+.card {
+    @include flexRow;
+}
+
+.card2 {
+    @include flexColumn;
 }

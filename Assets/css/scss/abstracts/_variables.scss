@@ -1,27 +1,29 @@
-// Font size
-$font-size-small: 12px;
-$font-size-medium: 14px;
-$font-size-large: 16px;
 
 // Breakpoints for responsive
 $breakpoint-small: 500px;
 $breakpoint-medium: 800px;
 $breakpoint-large: 1000px;
 
+// Font size
+$font-size-small: 1rem;
+$font-size-medium: 1.4rem;
+$fs-mi-large: 1.6rem;
+$font-size-large: 1.7rem;
+$fs-title: 2.2rem;
+
+// Font weight
+$fw: 400;
+$fw: 700;
 
 // Font family
-// $font-family-title: ;
-// $font-family-label: ;
-// $font-family-namesite: ;
-// $font-family-quotes: ;
+$ff-text:  'Raleway', sans-serif, serif;
+
 
 
 // Colors
-// $color-text: #;
-// $color-text-alt : #;
-// $color-button: #;
-// $color-bg-first: #;
-// $color-bg-second: #;
-// $color-footer: #;
-// $color-white: #;
-// $color-light-text: #;
+$color-text: #000;
+$color-icon: #0065FC;
+
+$bg-first: #F0F2F6;
+$bg-second: #F2F2F2;
+$bg-alt: #e6e7e9;
