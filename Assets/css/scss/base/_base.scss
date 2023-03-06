@@ -29,7 +29,11 @@ body {
     line-height: 1.7;
     box-sizing: border-box;
     background-color: $bg-first;
-    padding: 0 2rem;
+}
+
+header,main {
+    
+    padding: 0 4rem;
 }
 
 a {
@@ -49,10 +53,32 @@ img {
     color: $color-icon
 }
 
-.card {
-    @include flexRow;
+.alt {
+    color: $bg-alt;
 }
 
-.card2 {
-    @include flexColumn;
+// .card {
+//     @include flexRow;
+// }
+
+// .card2 {
+//     @include flexColumn;
+// }
+
+.bg-section {
+    padding: 3rem;
+    background-color: $bg-alt;
+    border-radius: 2rem ;
+    height: 80vh;
+}
+
+.bg-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card1__info-title,
+.card2__info-title,
+.card3__info-title {
+    font-size: 1.6rem;
 }

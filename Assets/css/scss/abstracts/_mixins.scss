@@ -6,13 +6,12 @@
 @mixin flexRow {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
-// @mixin flexRow {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-// }
+@mixin flexRow2 {
+    display: flex;
+    
+}
 
 @mixin flexColumn {
     display: flex;

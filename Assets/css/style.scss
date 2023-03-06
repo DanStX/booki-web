@@ -17,15 +17,19 @@
 @import 
     './scss/layout/header',
     './scss/layout/main',
-    './scss/layout/aside',
+    './scss/layout/wrapper',
+    './scss/layout/right',
+    './scss/layout/left',
+    './scss/layout/activité',
     './scss/layout/footer';
 
 @import 
     './scss/components/brand',
-    './scss/components/form',
     './scss/components/nav',
+    './scss/components/form',
     './scss/components/buttons',
-    './scss/components/filter'
+    './scss/components/filter',
+    './scss/components/card'
     ;
 @import 
     './scss/pages/home';

@@ -1,1 +1,25 @@
-//This file is for create your style with relation on space of footer
+.footer {
+    display: flex;
+    padding: 3rem;
+    background-color: $bg-alt;
+   
+    height: 20vh;
+
+}
+.footer-lien {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 15rem;
+
+    &__title {
+        font-size: 1.6rem
+    }
+    &__para {
+            margin: 0.2rem 0;
+
+        &__para-link{
+            font-size: 1.3rem;
+        }
+    }
+}
