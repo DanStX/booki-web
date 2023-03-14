@@ -1,28 +1,6 @@
 
-
-
-
 // Font size for responsive
-// html {
 
-//     font-size: $font-size-small;
-
-//     @media (min-width: $breakpoint-medium) {
-//         font-size: $font-size-medium;
-//     }
-
-//     @media (min-width: $breakpoint-large) {
-//         font-size: $font-size-large;
-//     }
-    
-//     @media (min-width: $breakpoint-medium) {
-//         font-size: $font-size-medium;
-//     }
-
-//     @media (min-width: $breakpoint-large) {
-//         font-size: $font-size-large;
-//     }
-// }
 
 // General text
 body, a {
@@ -33,13 +11,6 @@ body, a {
     color: $color-text;
     font-size: $font-size-small;
 
-    // @media (min-width: $breakpoint-medium) {
-    //     font-size: $font-size-medium;
-    // }
-
-    // @media (min-width: $breakpoint-large) {
-    //     font-size: $font-size-large;
-    // }
 }
 
 // Titles

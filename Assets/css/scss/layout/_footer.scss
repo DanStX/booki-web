@@ -1,9 +1,10 @@
 .footer {
-    display: flex;
-    padding: 3rem;
-    background-color: $bg-alt;
-   
+    bottom: 0;
     height: 20vh;
+    padding: 3rem;
+    display: flex;
+    margin-top: 5rem;
+    background-color: $bg-alt;
 
 }
 .footer-lien {
@@ -15,6 +16,7 @@
     &__title {
         font-size: 1.6rem
     }
+
     &__para {
             margin: 0.2rem 0;
 
