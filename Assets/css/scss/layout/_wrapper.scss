@@ -6,11 +6,16 @@
     width: 93vw;
 
     @include respond(tab-port) {
-        height: 100vh;
+        height: 100%;
         margin-top: 3rem;
         @include flexColumn;
         flex-direction: column-reverse;
         // justify-content: space-between;
+    }
+
+    @include respond(phone) {
+        display: block;
+        width: 100%;
     }
     
 }
@@ -26,5 +31,11 @@
         // height: 85%;
         width: 100%;
         padding: 0 2rem;
+    }
+
+    @include respond(phone) {
+        width: 100%;
+        display: block;
+        // padding-right: 10rem;
     }
 }

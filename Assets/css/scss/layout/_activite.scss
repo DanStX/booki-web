@@ -3,6 +3,11 @@
     // height: 80vh;
     margin: 5rem 0 2rem 0;
     // padding: 2rem;
-
+    
+    @include respond(phone) {
+        & .section-title {
+            margin-left: 3rem;
+        }
+    }
 }
 

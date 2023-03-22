@@ -1,9 +1,9 @@
 .form {
     display: flex;
-    width: 15vw;
+    width: 100%;
     margin-bottom: 2rem;
+    // padding-right: 1rem;
     
-
     &__label {
         height: 4.9rem;
         font-size: 1.6rem;
@@ -11,9 +11,7 @@
         border: 0.1rem solid $bg-second;
         border-radius:  1.5rem 0 0 1.5rem;
         padding: 1.5rem 1.6rem 1.5rem 1.6rem;
-        // background-color: $bg-second;
-        background-color: $bg-alt ;
-        
+        background-color: $bg-alt ; 
     }
     
     &__input {
@@ -29,6 +27,11 @@
     
     &__input::placeholder {
         color: $color-text;
+    }
 
+    @include respond(phone) {
+        width: 80%;
+        margin: 1rem auto;
+        
     }
 }

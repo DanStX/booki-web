@@ -3,11 +3,13 @@
     justify-content: center;
     align-items: center;
 }
+
 @mixin flexRow {
     display: flex;
     justify-content: space-between;
     
 }
+
 @mixin flexRow2 {
     display: flex;
     
@@ -38,7 +40,7 @@ $breakpoint  à choisir:
 
 @mixin respond($breakpoint) {
     @if $breakpoint == phone {
-        @media only screen and (max-width: 600rem) { @content };    //600px
+        @media only screen and (max-width: 60rem) { @content };    //600px
     }
     @if $breakpoint == tab-port {
         @media only screen and (max-width: 90rem) { @content };     //900px

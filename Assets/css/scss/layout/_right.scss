@@ -1,17 +1,23 @@
 .right {
     width: 29vw;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
     @include respond(tab-port) {
         width: 93vw;
-        // height: 33%;
         margin-top: 2rem;
     
         
         & .insert {
             display: flex;
             justify-content: space-between;
+            width: 100%;
+        }
+    }
+
+    @include respond(phone) {
+        width: 100%;
+        
+        & .insert {
+            display: block;
+           
             width: 100%;
         }
     }
