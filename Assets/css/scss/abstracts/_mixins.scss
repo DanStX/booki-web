@@ -40,15 +40,15 @@ $breakpoint  à choisir:
 
 @mixin respond($breakpoint) {
     @if $breakpoint == phone {
-        @media only screen and (max-width: 60rem) { @content };    //600px
+        @media only screen and (max-width: 767px) { @content };    //600px
     }
     @if $breakpoint == tab-port {
-        @media only screen and (max-width: 90rem) { @content };     //900px
+        @media only screen and (max-width: 1024px) { @content };     //900px
     }
     @if $breakpoint == desktop {
-        @media only screen and (max-width: 120rem) { @content };    //1200px
+        @media only screen and (max-width: 1200px) { @content };    //1200px
     }
     @if $breakpoint == big-desktop {
-        @media only screen and (min-width: 140rem) { @content };    //1400
+        @media only screen and (min-width: 1440px) { @content };    //1400
     }
 }

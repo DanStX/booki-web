@@ -405,17 +405,17 @@ h4 {
 html {
   font-size: 62.5%;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
   html {
     font-size: 50%;
   }
 }
-@media only screen and (max-width: 120rem) {
+@media only screen and (max-width: 1200px) {
   html {
     font-size: 56.25%;
   }
 }
-@media only screen and (min-width: 140rem) {
+@media only screen and (min-width: 1440px) {
   html {
     font-size: 75%;
   }
@@ -428,7 +428,7 @@ body {
   background-color: #F0F2F6;
   margin: 0 6rem;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   body {
     margin: 0;
   }
@@ -444,6 +444,8 @@ img {
   max-width: 100%;
   width: auto;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .icon {
@@ -460,7 +462,7 @@ img {
   border-radius: 2rem;
 }
 
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .phone-alt {
     padding: 0.5rem;
     background-color: #F0F2F6;
@@ -471,14 +473,14 @@ h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
   h2 {
     margin-bottom: 1rem;
   }
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   h2 {
-    margin: 2rem;
+    margin: 1rem 0 2rem 1.5rem;
     font-size: 2.5rem;
   }
 }
@@ -493,7 +495,7 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .header {
     display: block;
   }
@@ -505,14 +507,13 @@ h2 {
 .main__title {
   font-size: 2.3rem;
   margin-bottom: 0;
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 .main__para {
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
-  padding: 0 3rem;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .main {
     margin: 3rem 0;
     width: 100%;
@@ -521,6 +522,7 @@ h2 {
     font-size: 2.3rem;
   }
   .main__para {
+    padding: 0 3rem;
     font-size: 1.5rem;
   }
 }
@@ -532,7 +534,7 @@ h2 {
   height: 80vh;
   width: 93vw;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
   .wrapper {
     height: 100%;
     margin-top: 3rem;
@@ -541,7 +543,7 @@ h2 {
     flex-direction: column-reverse;
   }
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .wrapper {
     display: block;
     width: 100%;
@@ -555,23 +557,35 @@ h2 {
   width: 100%;
   height: 85%;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
   .wrapper2 {
     width: 100%;
     padding: 0 2rem;
   }
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .wrapper2 {
     width: 100%;
     display: block;
   }
 }
 
+.link-card1 {
+  width: 30%;
+}
+
+.link-card2 {
+  width: 31%;
+}
+
+.link-card3 {
+  width: 22%;
+}
+
 .right {
   width: 29vw;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
   .right {
     width: 93vw;
     margin-top: 2rem;
@@ -582,7 +596,7 @@ h2 {
     width: 100%;
   }
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .right {
     width: 100%;
   }
@@ -602,17 +616,22 @@ h2 {
   font-size: 2rem;
   color: #0065FC;
 }
+@media only screen and (max-width: 767px) {
+  .favorite__icon {
+    margin-top: 2rem;
+  }
+}
 
 .left {
   width: 62vw;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
   .left {
     width: 100%;
     height: 60%;
   }
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .left {
     width: 100%;
   }
@@ -620,10 +639,10 @@ h2 {
 
 .more-link {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .more-link {
     margin: 2.5rem;
   }
@@ -632,7 +651,7 @@ h2 {
 .activite {
   margin: 5rem 0 2rem 0;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .activite .section-title {
     margin-left: 3rem;
   }
@@ -642,7 +661,7 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .grid {
     display: block;
     margin: 0 2rem;
@@ -665,6 +684,7 @@ h2 {
 }
 .footer-lien__title {
   font-size: 1.6rem;
+  width: 100%;
 }
 .footer-lien__para {
   margin: 0.2rem 0;
@@ -673,7 +693,7 @@ h2 {
   font-size: 1.3rem;
 }
 
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .footer {
     padding: 3rem 2rem 5rem 3rem;
     display: block;
@@ -681,31 +701,39 @@ h2 {
     background-color: #e6e7e9;
   }
   .footer-lien {
+    width: 100%;
     margin-bottom: 1rem;
+  }
+  .footer-lien__title {
+    font-size: 1.2rem;
   }
 }
 .brand {
   width: 100%;
   height: 100%;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1rem;
 }
 .brand__logo-link img {
   width: 12%;
   margin: 0.5rem auto;
   text-align: center;
-  padding-left: 3.3rem;
+  padding-left: 1rem;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
+  .brand {
+    height: 50%;
+  }
   .brand__logo-link img {
     width: 20%;
   }
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .brand {
     text-align: center;
   }
   .brand__logo-link img {
     width: 30%;
+    margin-left: 3rem;
   }
 }
 
@@ -735,7 +763,7 @@ h2 {
 .nav .active > a {
   border: none;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .nav {
     width: 100%;
   }
@@ -778,6 +806,8 @@ h2 {
   width: 33.2rem;
   height: 4.9rem;
   border: 0.1rem solid #e6e7e9;
+  border-right: none;
+  border-left: none;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -787,10 +817,13 @@ h2 {
 .form__input::placeholder {
   color: #000;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .form {
-    width: 80%;
+    width: 88%;
     margin: 1rem auto;
+  }
+  .form__input {
+    width: 80%;
   }
 }
 
@@ -808,7 +841,7 @@ h2 {
 .btn__icon {
   visibility: hidden;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .btn {
     width: 5rem;
   }
@@ -836,7 +869,7 @@ h2 {
   border-radius: 50%;
   margin-left: 0.3rem;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .filter-section {
     padding: 0 2rem;
     width: 100%;
@@ -887,12 +920,12 @@ h2 {
   font-weight: 600;
   line-height: normal;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .filter {
     display: block;
   }
   .filter__cap {
-    width: 45%;
+    width: 100%;
     margin: 0.8rem;
     font-size: 1.5rem;
     border-left: 2px solid #e6e7e9;
@@ -913,7 +946,7 @@ h2 {
   font-size: 1.5rem;
   border: none;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .spliter {
     display: flex;
     flex-wrap: wrap;
@@ -968,14 +1001,14 @@ h2 {
 .card1__info-title {
   margin-bottom: 1rem;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
   .card1 {
-    width: 80%;
+    width: 100%;
     height: 20vh;
     margin-right: 2rem;
   }
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .card1 {
     width: 100%;
     height: 20vh;
@@ -984,8 +1017,8 @@ h2 {
 }
 
 .card2 {
-  width: 31%;
-  height: 45%;
+  width: 100%;
+  height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1013,16 +1046,16 @@ h2 {
 .card2__info-para, .card2__info-note {
   margin: 0.5rem;
 }
-@media only screen and (max-width: 90rem) {
+@media only screen and (max-width: 1024px) {
   .card2 {
-    width: 350px;
+    width: 100%;
     height: 350px;
   }
   .card2__info {
     padding: 0 0 1rem 0;
   }
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 767px) {
   .card2 {
     width: 100%;
     height: 250px;
@@ -1047,15 +1080,9 @@ h2 {
 
 .card3 {
   height: 60vh;
-  width: 22%;
+  width: 100%;
   border: 1px solid #e6e7e9;
   box-shadow: 2px 2px 2px #e6e7e9;
-}
-@media only screen and (max-width: 90rem) {
-  .card3 {
-    width: 23%;
-    height: 40vh;
-  }
 }
 .card3__picture {
   height: 80%;
@@ -1069,7 +1096,13 @@ h2 {
   height: 20%;
   padding: 1rem 2rem;
 }
-@media only screen and (max-width: 60rem) {
+@media only screen and (max-width: 1024px) {
+  .card3 {
+    width: 100%;
+    height: 40vh;
+  }
+}
+@media only screen and (max-width: 767px) {
   .card3 {
     width: 95%;
     margin: 0 auto;

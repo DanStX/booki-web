@@ -59,7 +59,7 @@
     }
 
     @include respond(tab-port) {
-        width: 80%;
+        width: 100%;
         height: 20vh;
         margin-right: 2rem;
     }
@@ -72,8 +72,8 @@
 
 
 .card2 {
-    width: 31%;
-    height: 45%;
+    width: 100%;
+    height: 260px;
     @include flexColumn;
     justify-content: space-between;
     padding: 0.5rem ;
@@ -109,7 +109,7 @@
     }  
     
     @include respond(tab-port) {
-        width: 350px;
+        width: 100%;
         height: 350px;
 
         &__info {
@@ -146,14 +146,11 @@
 
 .card3 {
     height: 60vh;
-    width: 22%;
+    width: 100%;
     border: 1px solid $bg-alt;
     box-shadow: 2px 2px 2px  $bg-alt;
 
-    @include respond(tab-port) {
-        width: 23%;
-        height: 40vh;
-    }
+    
     
     &__picture {
         
@@ -170,6 +167,11 @@
       
         height: 20%;
         padding: 1rem 2rem ;
+    }
+
+    @include respond(tab-port) {
+        width: 100%;
+        height: 40vh;
     }
 
     @include respond(phone) {

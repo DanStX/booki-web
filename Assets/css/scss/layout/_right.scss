@@ -17,7 +17,6 @@
         
         & .insert {
             display: block;
-           
             width: 100%;
         }
     }
@@ -33,6 +32,10 @@
         margin-top: 0.6rem;
         font-size: 2rem;
         color: $color-icon;
+        
+        @include respond(phone) {
+            margin-top: 2rem;
+        }
     }
 
 

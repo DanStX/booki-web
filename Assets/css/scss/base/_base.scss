@@ -47,6 +47,7 @@ img {
 	max-width: 100%;
 	width: auto;
 	height: auto;
+    object-fit: cover;
 }
 
 .icon {
@@ -83,7 +84,7 @@ img {
     }
 
     @include respond(phone) {
-       margin: 2rem; 
+       margin: 1rem 0 2rem  1.5rem; 
        font-size: 2.5rem;
     }
 }
